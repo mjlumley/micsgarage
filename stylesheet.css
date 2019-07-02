@@ -1,0 +1,125 @@
+/*
+MicsGarage Style
+
+Name:     stylesheet.css
+Author:   Michael Lumley
+URL:      www.micsgarage.com
+Date:     1 June 2008
+*/
+
+/* Page Defaults */
+body {
+	color: #FFFFFF;
+	/*color: #DADEFC;*/
+	font-family: Verdana, Sans, sans-serif;
+	background-color: #081778;
+	font-size: 14px;
+    /* Playing around with styles for Design Presso. */
+    /*color: #CCCCCC; */
+    
+}
+
+a {
+	color: #00AAFF;
+	text-decoration: none;
+}
+
+/* The title of the page */
+#pagetitle {
+	font-size: 32px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	position: absolute;
+	top: 40px;
+	left: 160px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+    color: #FFFFFF;
+    /* Playing around with styles for Design Presso. */
+/*    font-size: 48px;
+    font-weight: 750;
+    letter-spacing: 12px;
+    vertical-align: top;
+    padding-bottom: 40px; */
+}
+
+/* The chooser box on the left */
+#chooser {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 1px;
+	color: #00D4FF;
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	padding-left: 5px;
+    width: 140px;
+    height: 200px;
+    /* Playing around with styles for Design Presso. */
+    /*text-align: right;
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 10px;
+    background-image: url('menuline.jpg');
+    top: 140px;
+    width: 180px; */     
+}
+
+.content {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    padding-left: 5px;
+}
+
+/* The "content" boxes */
+#cont-about {
+	visibility: hidden;
+}
+
+#cont-professional {
+	visibility: hidden;
+}
+
+#cont-personal {
+	visibility: hidden;
+}
+
+#cont-music {
+	visibility: hidden;
+}
+
+/* Other styles */
+.top-head {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+    /* Playing around with styles for Design Presso. */
+    /*font-size: 20px;
+    color: #FFFFFF; */
+}
+
+.mid-head {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 14px;
+    /* Playing around with styles for Design Presso. */
+    /*font-size: 18px;
+    color: #FFFFFF; */
+}
+
+.small-head {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 14px;
+    /* Playing around with styles for Design Presso. */
+    /*font-size: 16px;
+    color: #FFFFFF; */
+}
+
+#thanks {
+	font-size: 12px;
+    color: #FFFFFF;
+}
